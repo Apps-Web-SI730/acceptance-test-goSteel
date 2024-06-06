@@ -8,6 +8,8 @@ Feature: Editar Perfil
         Ejemplo:
         | Nombre | Apellido | Email | Teléfono | Dirección | Fecha de Nacimiento |
         | Juan   | Perez    | juanperez@example.com | 1234567890 | Calle 123 | 01/01/1990 |
+        (click en guardar)
+        => Mensaje: "Los datos han sido actualizados correctamente"
 
     Escenario 2: Cancelar la actualización de perfil
         Dado que el usuario se encuentra en la pantalla de perfil
